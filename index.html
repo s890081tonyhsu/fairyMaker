@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>精霊ジェネレータ</title>
+    <link rel="stylesheet" type="text/css" href="generator/style.css">
+</head>
+
+<body>
+	<div>使用している画像は権利者様側に帰属します。</div>
+    <div class="editor">
+        <div class="content-title">編集画面</div>
+        <button id="generate">生成</button>
+        <span>画像：</span><input type="file" id="filer">
+        <div id="card">
+            <div class="card-image">
+                <div class="card-attr-changer"></div>
+                <img src="test.jpg" class="card-image-source">
+                <img src="generator/card_frame/fire_thunder.png" class="card-frame">
+            </div>
+            <div class="card-info">
+                <img src="generator/background.png" class="card-bg">
+                <img src="generator/ss.png" class="card-ss">
+                <img src="generator/as.png" class="card-as">
+                <img src="generator/hp.png" class="card-status card-hp">
+                <img src="generator/attack.png" class="card-status card-attack">
+                <img src="generator/level.png" class="card-level">
+                <img src="generator/exit.png" class="card-exit">
+                <img src="generator/favorite.png" class="card-favorite">
+                <img src="generator/normal.png" class="card-normal">
+                <div class="card-attrs">
+                    <div class="card-attrs-name" contenteditable="true">
+                        ２２２の日 レッジ＆リフィル
+                    </div>
+                    <div class="card-attrs-hp" contenteditable="true">222</div>
+                    <div class="card-attrs-attack" contenteditable="true">222</div>
+                    <div class="card-attrs-skill card-attrs-as">
+                        <div class="card-attrs-skill-title" contenteditable="true">ASタイトル</div>
+                        <div class="card-attrs-skill-content" contenteditable="true">AS内容</div>
+                    </div>
+                    <div class="card-attrs-skill card-attrs-ss">
+                        <div class="card-attrs-skill-title" contenteditable="true">SSタイトル</div>
+                        <div class="card-attrs-skill-content" contenteditable="true">SS内容</div>
+                    </div>
+                    <div class="card-attrs-other">
+                        <div class="card-attrs-cost">コスト <span>50</span></div>
+                        <div class="card-attrs-level">MAX</div>
+                        <div class="card-attrs-next">Next.---</div>
+                        <div class="card-attrs-evol"><img src="generator/evol.png"><span>3/3</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="output">
+        <div class="content-title">出力</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="generator/html2canvas.min.js"></script>
+    <script type="text/javascript" src="generator/fairyMaker.js"></script>
+</body>
+
+</html>

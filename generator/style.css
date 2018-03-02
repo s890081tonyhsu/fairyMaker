@@ -1,0 +1,221 @@
+body{
+	background: white;
+}
+
+#card{
+    position: absolute;
+    width: 461px;
+    height: 770px;
+    background-color:rgba(0,0,0,1);
+}
+
+.card-ss{
+    position: absolute;
+    left: 33px;
+    top: 420px;
+}
+
+.card-as{
+	position: absolute;
+    left: 32px;
+    top: 334px;
+}
+
+.card-exit{
+    position: absolute;
+    top: 510px;
+    left: 30px;
+}
+
+.card-favorite{
+    position: absolute;
+    top: 510px;
+    left: 137px;
+}
+
+.card-level{
+    position: absolute;
+    left: 0px;
+    top: 52px;
+}
+
+.card-status{
+	position: absolute;
+    top: 296px;
+    width: 153px;
+}
+
+.card-hp{
+    left: 84px;
+}
+
+.card-attack{
+    left: 244px;
+}
+
+
+.card-normal{
+    position: absolute;
+    top: 506px;
+    left: 326px;
+}
+
+.card-image{
+    position: absolute;
+    left: 107px;
+    top: 12px;
+}
+
+.card-frame{
+    width: 283px;
+    height: 369px;
+    position: absolute;
+    cursor: default;
+}
+
+.card-info {
+    position: absolute;
+    top: 200px;
+}
+
+.card-image-source{
+    width: 259px;
+    height: 346px;
+    position: absolute;
+    padding: 12px;
+    cursor: default;
+}
+
+.card-attr-changer{
+	position: absolute;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.card-attrs{
+	position: absolute;
+	color:white;
+	font-family: Arial;
+    top: 0;
+}
+
+.card-attrs-name{
+    top: 264px;
+    position: relative;
+    font-size: 17pt;
+    left: 30px;
+    width: 397px;
+    text-align: center;
+}
+
+.card-attrs-hp{
+    color: #2e0600;
+    top: 298px;
+    left: 158px;
+    position: absolute;
+    font-size: 19pt;
+    width: 74px;
+    text-align: left;
+}
+
+.card-attrs-attack{
+    color: #2e0600;
+    top: 298px;
+    left: 318px;
+    position: absolute;
+    font-size: 19pt;
+    width: 74px;
+    text-align: left;
+}
+
+.card-attrs-skill{
+	position: absolute;
+    left: 126px;
+    width: 280px;
+    height: 69px;
+	overflow: hidden;
+}
+
+.card-attrs-skill-title{
+    text-align: center;
+}
+
+.card-attrs-skill-content{
+    line-height: 22px;
+    top: 26px;
+    position: absolute;
+    min-width:280px;
+}
+
+.card-attrs-as{
+	top: 341px;
+}
+
+.card-attrs-ss{
+    top: 433px;
+}
+
+.card-attrs-other{
+	position: absolute;
+	color:white;
+    top: 61px;
+    left: 23px;
+    font-size: 10pt;
+}
+
+.card-attrs-cost{
+}
+
+.card-attrs-level{
+    top: 43px;
+    left: 14px;
+    font-size: 11pt;
+    position: absolute;
+}
+
+.card-attrs-next{
+    top: 63px;
+    left: 6px;
+    font-size: 11pt;
+    position: absolute;
+    width: 60px;
+}
+
+.card-attrs-evol{
+    top: 101px;
+    left: 2px;
+    font-size: 11pt;
+    position: absolute;
+    width: 60px;
+}
+
+.card-attrs-evol > img {
+    height: 20px;
+}
+
+.card-attrs-evol > span{
+    position: absolute;
+    top: 1px;
+    font-size: 12pt;
+}
+
+
+.editor{
+    float: left;
+    width: 461px;
+    height: 834px;
+    background: rgb(230,230,230)
+}
+.content-title{
+	font-size:32pt;
+	float:left;
+}
+
+#output{
+    float: left;
+    width: 461px;
+    height: 834px;
+    background: rgb(230,230,250)
+}
