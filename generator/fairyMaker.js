@@ -66,8 +66,10 @@ $('#filer').on('change', (e) => {
 $('#generate').click(e => {
     html2canvas(document.getElementById('card')).then(function(canvas) {
         var $canvas = $(canvas);
-        $('#output > canvas').remove();
-        $('#output').append($canvas);
+        $('#output > img').remove();
+        $('#output').append($('<img>',{
+			src:canvas.toDataURL()
+        }));
     });
 })
 
