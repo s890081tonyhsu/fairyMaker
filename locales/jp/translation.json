@@ -1,0 +1,17 @@
+{
+    "title": "精霊ジェネレータ",
+    "warning": "使用している画像は権利者様側に帰属します。",
+    "editor": {
+        "title": "編集画面",
+        "image-input": "画像：",
+        "card": {
+            "cost": "コスト"
+        },
+        "none": "なし"
+    },
+    "output": {
+        "title": "出力",
+        "message": "上のボタンをクリックで画像を作成する",
+        "generate": "生成"
+    }
+}

@@ -41,7 +41,7 @@ changeFrame(nowAttr)
 $('.card-attrs-skill-title').wysiwygEvt().on('change', (e) => {
     var $el = $(e.target);
     if ($el.text() === '') {
-        $el.text('なし')
+        $el.text(i18next.t('editor.none'))
     }
 })
 

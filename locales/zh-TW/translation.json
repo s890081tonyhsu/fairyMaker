@@ -1,0 +1,17 @@
+{
+    "title": "精靈產生器",
+    "warning": "你所使用的圖片歸屬於該圖片擁有者。",
+    "editor": {
+        "title": "編輯畫面",
+        "image-input": "圖像：",
+        "card": {
+            "cost": "COST"
+        },
+        "none": "無"
+    },
+    "output": {
+        "title": "輸出結果",
+        "message": "點擊上方按鈕來產生圖片",
+        "generate": "產生"
+    }
+}
