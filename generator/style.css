@@ -2,11 +2,21 @@ body{
 	background: white;
 }
 
+/*** FONT SETTING ***/
 *{
 	font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 400;
-	font-feature-settings: "palt" on;
 }
+.card-attrs-hp, .card-attrs-attack {
+	font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+	font-weight: bolder;
+	top: 300px;
+	
+}
+
+
+
 
 #card{
     position: absolute;
@@ -108,30 +118,26 @@ body{
 }
 
 .card-attrs-name{
-    top: 264px;
+    top: 263px;
     position: relative;
-    font-size: 17pt;
-    left: 30px;
+    font-size: 16pt;
+    left: 31px;
     width: 397px;
     text-align: center;
 }
 
 .card-attrs-hp{
     color: #2e0600;
-    top: 298px;
     left: 158px;
     position: absolute;
-    font-size: 16pt;
     width: 74px;
     text-align: left;
 }
 
 .card-attrs-attack{
     color: #2e0600;
-    top: 298px;
     left: 318px;
     position: absolute;
-    font-size: 16pt;
     width: 74px;
     text-align: left;
 }
@@ -176,7 +182,7 @@ body{
 
 .card-attrs-level{
     top: 41px;
-    left: 14px;
+    left: 16px;
     font-size: 11pt;
     position: absolute;
 }
