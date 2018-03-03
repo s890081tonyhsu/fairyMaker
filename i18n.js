@@ -12,7 +12,7 @@ $(document).ready(function(){
         lng: 'jp',
         fallbackLng: 'jp',
         backend: {
-          loadPath: '/locales/{{lng}}/{{ns}}.json'
+          loadPath: './locales/{{lng}}/{{ns}}.json'
         }
     }, function(err, t) {
         jqueryI18next.init(i18next, $);
